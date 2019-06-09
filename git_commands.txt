@@ -6,8 +6,8 @@ git status -  статус репозитория
 git add filename    - добавить файл под наблюдение   (git add .    - добавить все файлы и каталоги)
 git commit -m "your comment"       сохраняем изменения, комментарий обязателен
 git add remote name_of_repo https://github.com/my_account/my_repo.git      соединяет локальный комп с репозиторием
-git push -u name_of_repo master   -   отправляет данные на сервер в ветку master (или указать другую ветку)
-git pull
+git push -u name_of_repo master   -   отправляет данные на сервер в ветку master (можно указать другую ветку или не указывать - тогда все ветки)
+git pull name_of_repo    - скачать репозиторий
 
 
 
