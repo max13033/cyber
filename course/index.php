@@ -51,20 +51,36 @@
 			</span>	
 		</div>		<br><br><br>
 
-		<div class = "lang"> 1. HTML - язык разметки.  </div> <br>
+		<div class = "block">
+			<div class = "lang"> 1. HTML</div>
 
-		<div class = "lang"> 2. CSS - таблица стилей.  </div>  <br>
+			<div class = "lang_desc">
+				<h2>Язык разметки</h2>
+				Определяет расположение элементов на странице. Любой документ на языке HTML представляет собой набор элементов - тегов. 
+			</div>
+		</div>     <br>
 
-		<div class = "lang"> 3. PHP - объектно-ориентированный язык программирования.  </div>	<br>
+		<div class = "lang"> 
+			<div> 2. CSS - таблица стилей.  </div>
+		</div>  <br>
 
-		<div class = "lang"> 4. MySQL - система управления базой данных.  </div>	<br>
+		<div class = "lang"> 
+			<div> 3. PHP - объектно-ориентированный язык программирования.  </div>
+		</div>	<br>
 
-		<div class = "lang"> 5. JavaScript - объектно-ориентированный язык программирования.  </div>	<br>				
+		<div class = "lang"> 
+			<div> 4. MySQL - система управления базой данных.</div>  
+		</div>	<br>
+
+		<div class = "lang">
+			<div> 5. JavaScript - объектно-ориентированный язык программирования.  </div>
+		</div>	<br>
+
 	</section>
 
 
 
-and now from home
+
 
 
 
