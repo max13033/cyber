@@ -52,16 +52,37 @@
 	#div_1_2{
 		float: left;
 		width: 60%;
-		max-width: 600px;
+		max-width: 800px;
+	}
+	.button{
+		width: 200px;
+		height: 60px;
+		background-color: #55f;
+		margin-left: 200px;
+		color: #fff;
+		padding-top: 15px;
+		font-size: 20pt;
+		font-family: arial;
+		border-radius: 15px;
+		box-sizing: border-box;
+		box-shadow: 0 0 20px 3px #00f;
+		clear: left;
+		text-align: center;
+	}
+	.arrow{
+		float: left;
+		transform: rotate(90deg);
+		margin-right: 20px;
+		color: #0bf;
+		cursor: pointer;
 	}
 	div.lang{
 		height: 50px;
-		background-color: #0bf;
 		border-radius: 10px 10px 0 0;
 		padding: 8px 25px;
 		font-size: 24pt;
 		font-weight: bold;
-		color: #fff;
+		color: #00a;
 		font-family: tahoma;
 	}
 	.lang_desc{
@@ -69,7 +90,9 @@
 		font-size: 16pt;
 		color: #006;
 		font-family: tahoma;
-
+		background-color: #cff;
+		border-radius: 0 0 10px 10px;
+/*		display: none;*/
 	}
 	span.desc_header{
 		font-size: 18pt;

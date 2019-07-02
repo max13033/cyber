@@ -40,12 +40,13 @@
 			
 		<img id = "man" src = "img/man_big.png">
 
+
+		<div class = "button">	Записаться	</div>		<br><br><br>
+		
 		<div style = "clear: both;"></div>
 		<br><br><br>		
 		
 	</section>
-
-	<div class = "button">	Записаться	</div>		<br><br><br>
 
 	<section id = "s2">
 		<span class = "title"> Программа курса</span>		<br><br><br><br>
@@ -57,7 +58,10 @@
 		</div>		<br><br><br>
 
 		<div class = "block">
-			<div class = "lang"> 1. HTML</div>
+			<div class = "lang"> 
+				<div class = "arrow"> &#10148; </div> 
+				1. HTML
+			</div>
 
 			<div class = "lang_desc">
 				<span class = "desc_header">Язык разметки</span>
@@ -66,7 +70,10 @@
 		</div>     <br><br><br>
 
 		<div class = "block">
-			<div class = "lang"> 2. CSS</div>
+			<div class = "lang">
+				<div class = "arrow"> &#10148; </div>
+				 2. CSS
+			</div>
 
 			<div class = "lang_desc">
 				<span class = "desc_header">Таблица стилей</span>
@@ -76,7 +83,10 @@
 		</div>     <br><br><br>
 
 		<div class = "block">
-			<div class = "lang"> 3. PHP</div>
+			<div class = "lang"> 
+				<div class = "arrow"> &#10148; </div>
+				3. PHP
+			</div>
 
 			<div class = "lang_desc">
 				<span class = "desc_header">Объектно-ориентированный язык программирования,</span>
@@ -87,7 +97,10 @@
 		</div>     <br><br><br>
 
 		<div class = "block">
-			<div class = "lang"> 4. MySQL</div>
+			<div class = "lang"> 
+				<div class = "arrow"> &#10148; </div>
+				4. MySQL
+			</div>
 
 			<div class = "lang_desc">
 				<span class = "desc_header">Система управления базой данных.</span>
@@ -96,7 +109,10 @@
 		</div>     <br><br><br>
 
 		<div class = "block">
-			<div class = "lang"> 5. JavaScript</div>
+			<div class = "lang"> 
+				<div class = "arrow"> &#10148; </div>
+				5. JavaScript
+			</div>
 
 			<div class = "lang_desc">
 				<span class = "desc_header">Объектно-ориентированный язык программирования.</span>
