@@ -1,6 +1,103 @@
 
-@media screen and (min-width: 1000px) and (max-width: 1199px){
+@media screen and (min-width: 1000px) and (max-width: 1999px){
 
+
+
+	#cont{
+		background-color: #fff;
+		width: 100%;
+		text-align: center;
+		padding: 0 20px;
+		box-sizing: border-box;
+	}
+	#s1{
+		text-align: justify;
+	}
+	#man{
+		/*max-width: 400px;*/
+		width: 40%;
+		max-width: 500px;
+		display: block;
+		float: right;
+	}
+	div.block{
+		width: 95%;
+		margin-bottom: 30px;
+		background-color: #fff;
+		border-radius: 10px;
+		text-align: left;
+		font-size: 12pt;
+		color: #00f;
+		margin: auto;
+		box-sizing: border-box;
+		box-shadow: 0 0 30px #99f;
+
+	}
+	span.title{
+		/*text-align: left;*/
+/*		margin-left: 60px;
+		padding-left: 60px;*/
+	}	
+	#div_1{
+		margin-left: 5%;
+		margin-top: 100px;
+	}
+	#div_2{
+		font-size: 18pt;
+		color: #00a;
+		font-weight: bold;
+		font-family: arial;
+		margin-left: 5%;
+	}
+	#div_1_2{
+		float: left;
+		width: 60%;
+		max-width: 800px;
+	}
+	.button{
+		width: 200px;
+		height: 60px;
+		background-color: #55f;
+		margin-left: 200px;
+		color: #fff;
+		padding-top: 15px;
+		font-size: 20pt;
+		font-family: arial;
+		border-radius: 15px;
+		box-sizing: border-box;
+		box-shadow: 0 0 20px 3px #00f;
+		clear: left;
+		text-align: center;
+	}
+	.arrow{
+		float: left;
+		transform: rotate(90deg);
+		margin-right: 20px;
+		color: #0bf;
+		cursor: pointer;
+	}
+	div.lang{
+		height: 50px;
+		border-radius: 10px 10px 0 0;
+		padding: 8px 25px;
+		font-size: 24pt;
+		font-weight: bold;
+		color: #00a;
+		font-family: tahoma;
+	}
+	.lang_desc{
+		padding: 3%;	
+		font-size: 16pt;
+		color: #006;
+		font-family: tahoma;
+		background-color: #cff;
+		border-radius: 0 0 10px 10px;
+/*		display: none;*/
+	}
+	span.desc_header{
+		font-size: 18pt;
+		font-weight: bold;
+	}
 
 
 

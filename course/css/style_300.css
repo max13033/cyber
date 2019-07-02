@@ -18,27 +18,6 @@ span.title{
 	font-weight: bold;
 	font-family: arial;
 }
-#s1 div{
-	font-size: 18pt;
-	color: #00a;
-	font-weight: bold;
-	font-family: arial;
-	width: 80%;
-	margin: auto;
-}
-.button{
-	width: 200px;
-	height: 60px;
-	background-color: #55f;
-	margin: auto;
-	color: #fff;
-	padding-top: 15px;
-	font-size: 20pt;
-	font-family: arial;
-	border-radius: 15px;
-	box-sizing: border-box;
-	box-shadow: 0 0 20px 3px #00f;
-}
 #s2 .desc{
 	font-size: 18pt;
 	color: #00a;
@@ -60,38 +39,76 @@ footer{
 
 
 	#cont{
-		background-color: #ddd;
+		background-color: #fff;
 		width: 100%;
-/*		height: 600px;*/
 		text-align: center;
 		padding: 0 20px;
 		box-sizing: border-box;
 	}
 	#man{
 		width: 100%;
+		max-width: 400px;
 	}
 	div.block{
-		width: 100%;
+		width: 95%;
 		margin-bottom: 30px;
-		background-color: #aaa;
+		background-color: #fff;
 		border-radius: 10px;
 		text-align: left;
 		font-size: 12pt;
 		color: #00f;
 		margin: auto;
 		box-sizing: border-box;
+		box-shadow: 0 0 30px #99f;
 
+	}
+	#div_2{
+		font-size: 18pt;
+	/*	position: relative;*/
+		color: #00a;
+		font-weight: bold;
+		font-family: arial;
+		width: 80%;
+		margin: auto;
+	}
+	.button{
+		width: 200px;
+		height: 60px;
+		background-color: #55f;
+		margin: auto;
+		margin-top: 70px;
+		color: #fff;
+		padding-top: 15px;
+		font-size: 20pt;
+		font-family: arial;
+		border-radius: 15px;
+		box-sizing: border-box;
+		box-shadow: 0 0 20px 3px #00f;
+	}	
+	.arrow{
+		display: none;
 	}
 	div.lang{
 		height: 50px;
-		background-color: #09f;
+		background-color: #0bf;
 		border-radius: 10px 10px 0 0;
-		padding: 10px;
+		padding: 8px 25px;
+		font-size: 24pt;
+		font-weight: bold;
+		color: #fff;
+		font-family: tahoma;
 	}
 	.lang_desc{
-		padding: 10px;	
-	}
+		padding: 3%;	
+		font-size: 16pt;
+		color: #006;
+		font-family: tahoma;
 
+	}
+	span.desc_header{
+		font-size: 18pt;
+		font-weight: bold;
+	}
 
 
 
