@@ -23,21 +23,26 @@
 	</header>	
 
 	<section id = "s1">	
+		<div id = "div_1_2">
+			<div id = "div_1">
+				<span class = "title">
+					<font style = "color: #099">Онлайн</font> курсы по <br> програм&shy;мированию
+				</span> 	<br><br><br><br>
+			</div>
 
-		<span class = "title">
-			<font style = "color: #099">Онлайн</font> курсы по <br> програм&shy;мированию
-		</span> 	<br><br><br><br>
+			<div id = "div_2">
+				<span class = "desc">
+					Данный курс предназначен для взрослых и детей от 14 лет. 
+					Курс состоит из теории и практических упражнений, а также домашних заданий.
+				</span>	  <br><br><br>
+			</div>
+		</div>
+			
+		<img id = "man" src = "img/man_big.png">
 
-		<div>
-			<span class = "desc">
-				Данный курс предназначен для взрослых и детей от 14 лет. 
-				Курс состоит из теории и практических упражнений, а также домашних заданий.
-			</span>	  <br><br><br>
-
-			<img id = "man" src = "img/man.png">
-
-		</div>		<br><br><br>		
-
+		<div style = "clear: both;"></div>
+		<br><br><br>		
+		
 	</section>
 
 	<div class = "button">	Записаться	</div>		<br><br><br>
