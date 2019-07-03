@@ -58,7 +58,7 @@
 		</div>		<br><br><br>
 
 		<div class = "block">
-			<div class = "lang"> 
+			<div class = "lang" id = "html"> 
 				<div class = "arrow"> &#10148; </div> 
 				1. HTML
 			</div>
@@ -70,7 +70,7 @@
 		</div>     <br><br><br>
 
 		<div class = "block">
-			<div class = "lang">
+			<div class = "lang" id = "css">
 				<div class = "arrow"> &#10148; </div>
 				 2. CSS
 			</div>
@@ -83,7 +83,7 @@
 		</div>     <br><br><br>
 
 		<div class = "block">
-			<div class = "lang"> 
+			<div class = "lang" id = "php"> 
 				<div class = "arrow"> &#10148; </div>
 				3. PHP
 			</div>
@@ -97,7 +97,7 @@
 		</div>     <br><br><br>
 
 		<div class = "block">
-			<div class = "lang"> 
+			<div class = "lang" id = "mysql"> 
 				<div class = "arrow"> &#10148; </div>
 				4. MySQL
 			</div>
@@ -109,7 +109,7 @@
 		</div>     <br><br><br>
 
 		<div class = "block">
-			<div class = "lang"> 
+			<div class = "lang" id = "js"> 
 				<div class = "arrow"> &#10148; </div>
 				5. JavaScript
 			</div>
