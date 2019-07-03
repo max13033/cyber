@@ -14,7 +14,7 @@ header{
 }
 span.title{
 	font-size: 36pt;
-	color: #00a;
+	color: #011b80;
 	font-weight: bold;
 	font-family: arial;
 }
@@ -74,7 +74,7 @@ footer{
 	.button{
 		width: 200px;
 		height: 60px;
-		background-color: #55f;
+		background-color: #0075ff;
 		margin: auto;
 		margin-top: 70px;
 		color: #fff;
@@ -83,14 +83,14 @@ footer{
 		font-family: arial;
 		border-radius: 15px;
 		box-sizing: border-box;
-		box-shadow: 0 0 20px 3px #00f;
+		box-shadow: 0 0 20px 3px #0075ff;
 	}	
 	.arrow{
 		display: none;
 	}
 	div.lang{
 		height: 50px;
-		background-color: #0bf;
+		background-color: #00cdff;
 		border-radius: 10px 10px 0 0;
 		padding: 8px 25px;
 		font-size: 24pt;
@@ -101,7 +101,7 @@ footer{
 	.lang_desc{
 		padding: 3%;	
 		font-size: 16pt;
-		color: #006;
+		color: #29368a;
 		font-family: tahoma;
 
 	}

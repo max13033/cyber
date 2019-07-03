@@ -26,7 +26,7 @@
 		<div id = "div_1_2">
 			<div id = "div_1">
 				<span class = "title">
-					<font style = "color: #099">Онлайн</font> курсы по <br> програм&shy;мированию
+					<font style = "color: #0075ff">Онлайн</font> курсы по <br> програм&shy;мированию
 				</span> 	<br><br><br><br>
 			</div>
 

@@ -34,10 +34,11 @@
 
 	}
 	span.title{
-		/*text-align: left;*/
-/*		margin-left: 60px;
-		padding-left: 60px;*/
-	}	
+		font-size: 36pt;
+		color: #011b80;
+		font-weight: bold;
+		font-family: arial;
+	}
 	#div_1{
 		margin-left: 5%;
 		margin-top: 100px;
@@ -57,7 +58,7 @@
 	.button{
 		width: 200px;
 		height: 60px;
-		background-color: #55f;
+		background-color: #0075ff;
 		margin-left: 200px;
 		color: #fff;
 		padding-top: 15px;
@@ -65,7 +66,7 @@
 		font-family: arial;
 		border-radius: 15px;
 		box-sizing: border-box;
-		box-shadow: 0 0 20px 3px #00f;
+		box-shadow: 0 0 20px 3px #0075ff;
 		clear: left;
 		text-align: center;
 	}
@@ -73,7 +74,7 @@
 		float: left;
 		transform: rotate(90deg);
 		margin-right: 20px;
-		color: #0bf;
+		color: #0075ff;
 		cursor: pointer;
 	}
 	div.lang{
@@ -82,7 +83,7 @@
 		padding: 8px 25px;
 		font-size: 24pt;
 		font-weight: bold;
-		color: #00a;
+		color: #011b80;
 		font-family: tahoma;
 	}
 	.lang_desc{
