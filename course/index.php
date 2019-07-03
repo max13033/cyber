@@ -19,20 +19,22 @@
 <div id = "cont">
 
 	<header>
-
-	</header>	
+		<div> Кибермозг</div>  
+		<img src = "img/phone.png">	
+		<div> 8-995-1-101-909
+	</header>	 <br>
 
 	<section id = "s1">	
 		<div id = "div_1_2">
 			<div id = "div_1">
 				<span class = "title">
-					<font style = "color: #0075ff">Онлайн</font> курсы по <br> програм&shy;мированию
+					<font style = "color: #0075ff; font-family: online; font-size: 28pt; letter-spacing: 3pt;">Онлайн</font> курсы по <br> програм&shy;мированию
 				</span> 	<br><br><br><br>
 			</div>
 
 			<div id = "div_2">
 				<span class = "desc">
-					Данный курс предназначен для взрослых и детей от 14 лет. 
+					Данный курс предназначен для взрослых и детей от <span style = "font-family: arial" >14</span>  лет.
 					Курс состоит из теории и практических упражнений, а также домашних заданий.
 				</span>	  <br><br><br>
 			</div>
@@ -51,16 +53,16 @@
 	<section id = "s2">
 		<span class = "title"> Программа курса</span>		<br><br><br><br>
 
-		<div>
-			<span class = "desc">
-				Курс длится приблизительно 6 мес. За это время вы получите навыки по следующим языкам:
-			</span>	
+		<div class = "desc">
+				Курс длится приблизительно <span style = "font-family: arial" >6</span> мес. За это время вы получите навыки по следующим языкам:	
 		</div>		<br><br><br>
 
 		<div class = "block">
 			<div class = "lang" id = "html"> 
 				<div class = "arrow"> &#10148; </div> 
 				1. HTML
+				<img class = "lang_logo_mini" src = "img/html_mini.png">
+				<img class = "lang_logo" src = "img/html.png">
 			</div>
 
 			<div class = "lang_desc">
@@ -73,6 +75,8 @@
 			<div class = "lang" id = "css">
 				<div class = "arrow"> &#10148; </div>
 				 2. CSS
+				<img class = "lang_logo_mini" src = "img/css_mini.png">
+				<img class = "lang_logo" src = "img/css.png">
 			</div>
 
 			<div class = "lang_desc">
@@ -86,6 +90,8 @@
 			<div class = "lang" id = "php"> 
 				<div class = "arrow"> &#10148; </div>
 				3. PHP
+				<img class = "lang_logo_mini" src = "img/php_mini.png">
+				<img class = "lang_logo" src = "img/php.png">
 			</div>
 
 			<div class = "lang_desc">
@@ -100,6 +106,8 @@
 			<div class = "lang" id = "mysql"> 
 				<div class = "arrow"> &#10148; </div>
 				4. MySQL
+				<img class = "lang_logo_mini" src = "img/mysql_mini.png">
+				<img class = "lang_logo" src = "img/mysql.png">
 			</div>
 
 			<div class = "lang_desc">
@@ -112,6 +120,8 @@
 			<div class = "lang" id = "js"> 
 				<div class = "arrow"> &#10148; </div>
 				5. JavaScript
+				<img class = "lang_logo_mini" src = "img/js_mini.png">
+				<img class = "lang_logo" src = "img/js.png">
 			</div>
 
 			<div class = "lang_desc">
