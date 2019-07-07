@@ -19,9 +19,10 @@
 <div id = "cont">
 
 	<header>
-		<div> Кибермозг</div>  
-		<img src = "img/phone.png">	
-		<div> 8-995-1-101-909
+		<div> Кибермозг</div> 
+		<div> <img style = "height: 30px; " src = "img/whatsapp_b.png">	 &nbsp;8 995 1 101 909 </div>  
+		<div style = "clear: both; float: none; margin: 0;"></div>
+			
 	</header>	 <br>
 
 	<section id = "s1">	
@@ -43,7 +44,7 @@
 		<img id = "man" src = "img/man_big.png">
 
 
-		<div class = "button">	Записаться	</div>		<br><br><br>
+		<div class = "button first">	Записаться	</div>		<br><br><br>
 		
 		<div style = "clear: both;"></div>
 		<br><br><br>		
@@ -54,7 +55,7 @@
 		<span class = "title"> Программа курса</span>		<br><br><br><br>
 
 		<div class = "desc">
-				Курс длится приблизительно <span style = "font-family: arial" >6</span> мес. За это время вы получите навыки по следующим языкам:	
+				Курс длится от приблизительно двух до шести месяцев (длительность зависит от выбранной программы обучения). За это время вы получите навыки по следующим языкам:	
 		</div>		<br><br><br>
 
 		<div class = "block">
@@ -128,12 +129,18 @@
 				<span class = "desc_header">Объектно-ориентированный язык программирования.</span>
 				Наиболее широкое применение находит в браузерах как язык сценариев для придания интерактивности веб-страницам.
 			</div>
-		</div>     <br>	<br><br>			
+		</div>     <br>	<br>
 
 	</section>
 
+	<div class = "button second">	Записаться	</div>		<br><br><br>
+
+	<section id = "s3">
+		<div class = "level l1">sdgsdfg</div>
+		<div class = "level l2">dsgsd</div>
 
 
+	</section>	
 
 
 
@@ -142,8 +149,14 @@
 
 	<footer>
 		
-		Создание сайта: Кибермозг.рф
-	</footer>
+		<!-- Создание сайта: Кибермозг.рф -->
+		<div> Кибермозг</div> 
+		<div> 
+			<span style = "font-family: arial; font-size: 18pt;">whatsapp</span> &nbsp;  
+			<img style = "height: 30px; " src = "img/whatsapp_b.png">	 &nbsp;8 995 1 101 909 
+		</div>  <!-- <br> -->
+		<div style = "clear: both; float: none; margin: 0;"></div>
+	</footer> 
 
 </div>    <!-- cont -->
 
