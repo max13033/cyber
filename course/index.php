@@ -129,20 +129,93 @@
 				<span class = "desc_header">Объектно-ориентированный язык программирования.</span>
 				Наиболее широкое применение находит в браузерах как язык сценариев для придания интерактивности веб-страницам.
 			</div>
-		</div>     <br>	<br>
+		</div>     <br>	<br> 	<br> 
 
 	</section>
 
-	<div class = "button second">	Записаться	</div>		<br><br><br>
+	<div class = "button second">	Записаться	</div>		<br><br><br>	<br>	<br>
 
 	<section id = "s3">
-		<div class = "level l1">sdgsdfg</div>
-		<div class = "level l2">dsgsd</div>
+		<div class = "level l1"> 
+			<span style = "font-size: 18pt; font-weight: bold;	color: #011b80;; font-family: tahoma;">Начальный уровень - </span>
+			<span style = "font-size: 14pt;	color: #29368a;	font-family: tahoma;" > изучение HTML и CSS. <br>Длительность курса 2-3 недели (по 2-3 занятия в неделю).
+				Вы научитесь создавать сайты-визитки и многостраничные статичные сайты.</span>
+		</div>
+		
+		<div class = "level l2">
+			<span style = "font-size: 18pt; font-weight: bold;	color: #011b80;; font-family: tahoma;">Продвинутый уровень - </span>
+			<span style = "font-size: 14pt;	color: #29368a;	font-family: tahoma;" > изучение HTML, CSS, PHP, MySQL, JavaScript. Длительность курса 6-8 мес (по 2-3 занятия в неделю). <br>
+			Вы научитесь создавать приземляющие страницы (Landing page), корпоративные сайты, сайты социальных сетей, интернет магазины и др. </span>
+		</div>
 
+		<div style = "clear: both;"></div>
+
+		 <br><br><br>
 
 	</section>	
 
+	<section id = "s4">
+		<div id = "forma">
+			<h1 style = "font-size: 30pt">  Записаться или задать вопрос</h1>
 
+			<form method = "post">
+
+				<div class = "fblock">
+					<div class = 'fname'>Ваше имя</div>
+					<div class = 'fval'>
+						<input type = "text" name = "name">
+					</div>
+				</div>
+
+				<div class = "fblock">
+					<div class = 'fname'>Номер телефона</div>
+					<div class = 'fval'>
+						<input type = "text" name = "phone">
+					</div>
+				</div>
+
+				<div class = "fblock">
+					<div class = 'fname'>Эл. почта</div>
+					<div class = 'fval'>
+						<input type = "text" name = "email">
+					</div>
+				</div>
+
+				<div class = "fblock">
+					<div class = 'fname'>Ваш вопрос</div>
+					<div class = 'fval'>
+						<textarea name = "question">Введите Ваш вопрос
+						</textarea>
+					</div>
+				</div>
+
+				<div class = "fblock">
+					<div class = 'fname'></div>
+					<div class = 'fval'>
+						<input type = "submit" value = "Отправить">
+					</div>
+				</div>
+
+				<div class = "fblock">
+					<div class = 'fname'></div>
+					<div class = 'fval'></div>
+				</div>	
+
+				<div class = "fblock">
+					<div class = 'fname'></div>
+					<div class = 'fval'></div>
+				</div>
+
+				<div class = "fblock">
+					<div class = 'fname'></div>
+					<div class = 'fval'></div>
+				</div>
+
+			</form>
+
+		</div>
+
+	</section>	<br>	<br>	<br>
 
 
 
@@ -152,7 +225,7 @@
 		<!-- Создание сайта: Кибермозг.рф -->
 		<div> Кибермозг</div> 
 		<div> 
-			<span style = "font-family: arial; font-size: 18pt;">whatsapp</span> &nbsp;  
+			<!-- <span style = "font-family: arial; font-size: 18pt;">whatsapp</span> &nbsp;  --> 
 			<img style = "height: 30px; " src = "img/whatsapp_b.png">	 &nbsp;8 995 1 101 909 
 		</div>  <!-- <br> -->
 		<div style = "clear: both; float: none; margin: 0;"></div>

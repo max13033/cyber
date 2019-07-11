@@ -77,21 +77,6 @@ span.title{
 #s3{
 	text-align: left;
 }
-.level{
-	width: 50%;
-	height: 300px;
-	padding: 30px;
-	box-sizing: border-box;
-
-}
-.l1{
-	background-color: #dff;
-	float: left;
-}
-.l2{
-	background-color: #fdf;
-	float: right;
-}
 
 @media screen and (min-width: 200px) and (max-width: 999px) {
 
@@ -185,7 +170,20 @@ span.title{
 		font-weight: bold;
 	}
 
-
+	.level{
+		min-height: 100px;
+		padding: 30px;
+		box-sizing: border-box;
+		border-radius: 5px;
+		box-shadow: 0 0 2px #99f;	
+		width: 100%;
+	}
+	.l1{
+		background-color: #dff;
+	}
+	.l2{
+		background-color: #ccf7ff;
+	}
 
 
 
