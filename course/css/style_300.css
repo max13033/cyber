@@ -125,13 +125,14 @@ span.title{
 	.button{
 		width: 200px;
 		height: 60px;
-		background-color: #0075ff;
+/*		background-color: #0075ff;*/
+		background-image: linear-gradient(-20deg, #004599 , #0075ff);
 		margin: auto;
 		margin-top: 70px;
 		color: #fff;
 		padding-top: 15px;
 		font-size: 20pt;
-/*		font-family: arial;*/
+		cursor: pointer;
 		border-radius: 15px;
 		box-sizing: border-box;
 		box-shadow: 0 0 20px 3px #0075ff;
@@ -184,8 +185,48 @@ span.title{
 	.l2{
 		background-color: #ccf7ff;
 	}
+	#forma{
+		width: 100%;
+/*		background-color: #0075ff;*/
+		background-image: linear-gradient(-20deg, #008 , #0075ff);
+		padding: 3%;
+		box-sizing: border-box;
+		border-radius: 20px;
+		color: #fff;
+	}
+	.fblock{
+		width: 100%;
+/*		height: 50px;*/
+		font-size: 18pt;
+		font-weight: bold;
+	}
+	.fname{
 
-
+		padding-right: 20px;
+		box-sizing: border-box;
+	}
+	.fval{
+	
+	}
+	input, textarea{
+		width: 200px;
+		height: 20px;
+		background-color: #ccf7ff;
+		border: 0;
+		margin-bottom: 20px;
+	}
+	.send{
+		font-size: 16pt;
+		color: #fff;
+		font-family: course;
+		height: 30px;
+		background-color: #039;
+		border: 0;
+		border-radius: 7px;
+		padding-top: 5px;
+		box-shadow: 0 0 5px 3px #ccf7ff;
+		cursor: pointer;
+	}
 
 
 

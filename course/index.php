@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="css/style_1200.css">
 	<link rel="stylesheet" type="text/css" href="css/style_1000.css">
 	<link rel="stylesheet" type="text/css" href="css/style_300.css">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/png">
 
 	<meta name='viewport' content='width=device-width,initial-scale=1'/>
 	<meta content='true' name='HandheldFriendly'/>
@@ -36,7 +37,10 @@
 			<div id = "div_2">
 				<span class = "desc">
 					Данный курс предназначен для взрослых и детей от <span style = "font-family: arial" >14</span>  лет.
-					Курс состоит из теории и практических упражнений, а также домашних заданий.
+					Курс состоит из теории и практических упражнений, а также домашних заданий. <br><br>
+					Занятия проходят по Skype, поэтому Вам не придётся выходить из дома (особенно это неприятно в плохую погоду) и тратить время и деньги на проезд. <br><br>
+					Освоив профессию программиста, Вы можете найти себе работу также удалённо и заниматься любимым делом не выходя из дома. <br><br>
+					Первое занятие <b> БЕСПЛАТНО</b>
 				</span>	  <br><br><br>
 			</div>
 		</div>
@@ -60,13 +64,19 @@
 
 		<div class = "block">
 			<div class = "lang" id = "html"> 
-				<div class = "arrow"> &#10148; </div> 
+
+				<label for = "ch_1">
+					<div class = "arrow"> &#10148; </div>
+				</label>
+
 				1. HTML
 				<img class = "lang_logo_mini" src = "img/html_mini.png">
 				<img class = "lang_logo" src = "img/html.png">
 			</div>
 
-			<div class = "lang_desc">
+			<input type = "checkbox" style = "display: none" id = "ch_1">
+
+			<div class = "lang_desc" id = "desc_1">
 				<span class = "desc_header">Язык разметки</span>
 				определяет расположение элементов на странице. Любой документ на языке HTML представляет собой набор элементов - тегов. 
 			</div>
@@ -74,12 +84,18 @@
 
 		<div class = "block">
 			<div class = "lang" id = "css">
-				<div class = "arrow"> &#10148; </div>
+
+				<label for = "ch_2">
+					<div class = "arrow"> &#10148; </div>
+				</label>
+				
 				 2. CSS
 				<img class = "lang_logo_mini" src = "img/css_mini.png">
 				<img class = "lang_logo" src = "img/css.png">
 			</div>
 
+			<input type = "checkbox" style = "display: none" id = "ch_2">
+			
 			<div class = "lang_desc">
 				<span class = "desc_header">Таблица стилей</span>
 				Применяется для задания цветов, шрифтов, расположения отдельных блоков 
@@ -89,12 +105,19 @@
 
 		<div class = "block">
 			<div class = "lang" id = "php"> 
-				<div class = "arrow"> &#10148; </div>
+
+				<label for = "ch_3">
+					<div class = "arrow"> &#10148; </div>
+				</label>
+				
 				3. PHP
 				<img class = "lang_logo_mini" src = "img/php_mini.png">
 				<img class = "lang_logo" src = "img/php.png">
 			</div>
 
+				
+			<input type = "checkbox" style = "display: none" id = "ch_3">
+			
 			<div class = "lang_desc">
 				<span class = "desc_header">Объектно-ориентированный язык программирования,</span>
 				позволяющий динамически менять внешний вид сайта в зависимости от внешних факторов 
@@ -105,12 +128,19 @@
 
 		<div class = "block">
 			<div class = "lang" id = "mysql"> 
-				<div class = "arrow"> &#10148; </div>
+
+				<label for = "ch_4">
+					<div class = "arrow" onclick = "this.style.transform='rotate(180deg)'"> &#10148; </div>
+				</label>
+				
 				4. MySQL
 				<img class = "lang_logo_mini" src = "img/mysql_mini.png">
 				<img class = "lang_logo" src = "img/mysql.png">
 			</div>
 
+
+			<input type = "checkbox" style = "display: none" id = "ch_4">
+			
 			<div class = "lang_desc">
 				<span class = "desc_header">Система управления базой данных.</span>
 				Она позволяет сохранять, считывать и изменять информацию в базе данных.
@@ -119,12 +149,18 @@
 
 		<div class = "block">
 			<div class = "lang" id = "js"> 
-				<div class = "arrow"> &#10148; </div>
+
+				<label for = "ch_5">
+					<div class = "arrow"> &#10148; </div>
+				</label>
+					
 				5. JavaScript
 				<img class = "lang_logo_mini" src = "img/js_mini.png">
 				<img class = "lang_logo" src = "img/js.png">
 			</div>
 
+			<input type = "checkbox" style = "display: none" id = "ch_5">
+			
 			<div class = "lang_desc">
 				<span class = "desc_header">Объектно-ориентированный язык программирования.</span>
 				Наиболее широкое применение находит в браузерах как язык сценариев для придания интерактивности веб-страницам.
@@ -138,7 +174,7 @@
 	<section id = "s3">
 		<div class = "level l1"> 
 			<span style = "font-size: 18pt; font-weight: bold;	color: #011b80;; font-family: tahoma;">Начальный уровень - </span>
-			<span style = "font-size: 14pt;	color: #29368a;	font-family: tahoma;" > изучение HTML и CSS. <br>Длительность курса 2-3 недели (по 2-3 занятия в неделю).
+			<span style = "font-size: 14pt;	color: #29368a;	font-family: tahoma;" > изучение HTML и CSS. <br>Длительность курса 2-3 месяца (по 2-3 занятия в неделю).
 				Вы научитесь создавать сайты-визитки и многостраничные статичные сайты.</span>
 		</div>
 		
@@ -184,7 +220,7 @@
 				<div class = "fblock">
 					<div class = 'fname'>Ваш вопрос</div>
 					<div class = 'fval'>
-						<textarea name = "question">Введите Ваш вопрос
+						<textarea name = "question">
 						</textarea>
 					</div>
 				</div>
@@ -192,25 +228,9 @@
 				<div class = "fblock">
 					<div class = 'fname'></div>
 					<div class = 'fval'>
-						<input type = "submit" value = "Отправить">
+						<input type = "submit" value = "Отправить" class = "send">
 					</div>
 				</div>
-
-				<div class = "fblock">
-					<div class = 'fname'></div>
-					<div class = 'fval'></div>
-				</div>	
-
-				<div class = "fblock">
-					<div class = 'fname'></div>
-					<div class = 'fval'></div>
-				</div>
-
-				<div class = "fblock">
-					<div class = 'fname'></div>
-					<div class = 'fval'></div>
-				</div>
-
 			</form>
 
 		</div>
