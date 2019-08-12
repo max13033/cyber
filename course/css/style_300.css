@@ -17,9 +17,15 @@
 /*    src: url(../fonts/ds_crystal.ttf);*/
     src: url(../fonts/digital.otf);
 }
+html{
+	scroll-behavior: smooth;
+}
 body{
 	margin: 0;
 	font-family: coco;
+}
+a{
+	text-decoration: none;
 }
 header{
 	width: 100%;

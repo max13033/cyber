@@ -49,8 +49,9 @@
 			
 		<img id = "man" src = "img/man_big.png">
 
-
-		<div class = "button first">	Записаться	</div>		<br><br><br>
+		<a href = "#s4">
+			<div class = "button first">	Записаться	</div>		
+		</a>			<br><br><br>
 		
 		<div style = "clear: both;"></div>
 		<br><br><br>		
@@ -171,8 +172,10 @@
 
 	</section>
 
-	<div class = "button second">	Записаться	</div>		<br><br><br>	<br>	<br>
-
+	<a href = "#s4">
+		<div class = "button second">	Записаться	</div>		<br><br><br>	<br>	<br>
+	</a>
+		
 	<section id = "s3">
 		<div class = "level l1"> 
 			<span style = "font-size: 18pt; font-weight: bold;	color: #011b80;; font-family: tahoma;">Начальный уровень - </span>
