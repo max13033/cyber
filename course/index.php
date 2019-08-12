@@ -17,6 +17,8 @@
 
 <body>
 
+<script src = "code.js"></script>
+
 <div id = "cont">
 
 	<header>
@@ -66,7 +68,7 @@
 			<div class = "lang" id = "html"> 
 
 				<label for = "ch_1">
-					<div class = "arrow"> &#10148; </div>
+					<div class = "arrow" onclick = "if(this.style.transform=='rotate(270deg)'){this.style.transform='rotate(90deg)'}else{this.style.transform='rotate(270deg)'}"> &#10148; </div>
 				</label>
 
 				1. HTML
@@ -86,7 +88,7 @@
 			<div class = "lang" id = "css">
 
 				<label for = "ch_2">
-					<div class = "arrow"> &#10148; </div>
+					<div class = "arrow" onclick = "if(this.style.transform=='rotate(270deg)'){this.style.transform='rotate(90deg)'}else{this.style.transform='rotate(270deg)'}"> &#10148; </div>
 				</label>
 				
 				 2. CSS
@@ -107,7 +109,7 @@
 			<div class = "lang" id = "php"> 
 
 				<label for = "ch_3">
-					<div class = "arrow"> &#10148; </div>
+					<div class = "arrow" onclick = "if(this.style.transform=='rotate(270deg)'){this.style.transform='rotate(90deg)'}else{this.style.transform='rotate(270deg)'}"> &#10148; </div>
 				</label>
 				
 				3. PHP
@@ -130,7 +132,7 @@
 			<div class = "lang" id = "mysql"> 
 
 				<label for = "ch_4">
-					<div class = "arrow" onclick = "this.style.transform='rotate(180deg)'"> &#10148; </div>
+					<div class = "arrow" onclick = "if(this.style.transform=='rotate(270deg)'){this.style.transform='rotate(90deg)'}else{this.style.transform='rotate(270deg)'}"> &#10148; </div>
 				</label>
 				
 				4. MySQL
@@ -151,7 +153,7 @@
 			<div class = "lang" id = "js"> 
 
 				<label for = "ch_5">
-					<div class = "arrow"> &#10148; </div>
+					<div class = "arrow" onclick = "if(this.style.transform=='rotate(270deg)'){this.style.transform='rotate(90deg)'}else{this.style.transform='rotate(270deg)'}"> &#10148; </div>
 				</label>
 					
 				5. JavaScript
