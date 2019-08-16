@@ -243,7 +243,13 @@
 	</section>	<br>	<br>	<br>
 
 <?
-	if(  (isset($_POST['phone']) AND $_POST['phone'] !=null) || (isset($_POSt['email']) AND $_POST['email'] !=null) ){	?>
+	if(  (isset($_POST['phone']) AND $_POST['phone'] !=null) || (isset($_POSt['email']) AND $_POST['email'] !=null) ){	
+		$name = $_POST['name'];
+		$phone = $_POST['phone'];
+		$email = $_POST['email'];
+		$question = $_POST['question'];
+		mail("max1303@rambler.ru", "Письмо в техподдержку от $name", "$question", "From: $email");
+		?>
 
 		<div style = "position: fixed; left: 0; right: 0; top: 0; bottom: 0; background-color: #000; opacity: 0.7">	</div>
 		
