@@ -106,22 +106,26 @@
 		right: 20px;	
 		height: 40px;	
 	}	
-	input[type = "checkbox"]:checked + div{
-		display: block;
-	}
 	.lang_desc{
-		display: none;
-		padding: 3%;	
+		/*display: none;*/
+		height: 0;
+		overflow: hidden;
+		opacity: 0;
+		transition-property: height, padding, opacity;
+		transition-timing-function: ease;
+		transition-duration: 0.5s;
+		padding: 0;	
 		font-size: 16pt;
 		color: #006;
 		font-family: tahoma;
 		background-color: #cff;
 		border-radius: 0 0 10px 10px;
-		transition-property: display;
-		transition-duration: 1s;
-		transition-timing-function: ease;
-/*		height: 0px;*/
 	}
+	input[type = "checkbox"]:checked + div{
+		height: 100%;
+		padding: 3%;
+		opacity: 1;
+	}	
 	span.desc_header{
 		font-size: 18pt;
 		font-weight: bold;

@@ -83,6 +83,18 @@ span.title{
 #s3{
 	text-align: left;
 }
+.popup{
+	position: fixed; 
+	top: 30%; 
+	left: 30%; 
+	right: 30%; 
+	background-image: linear-gradient(-20deg, #008 , #0075ff);
+	padding: 3%;
+	box-sizing: border-box;
+	border-radius: 20px;
+	color: #fff;
+	font-size: 16pt;
+}
 
 @media screen and (min-width: 200px) and (max-width: 999px) {
 

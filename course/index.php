@@ -204,7 +204,7 @@
 				<div class = "fblock">
 					<div class = 'fname'>Ваше имя</div>
 					<div class = 'fval'>
-						<input type = "text" name = "name">
+						<input type = "text" name = "name" required>
 					</div>
 				</div>
 
@@ -218,14 +218,14 @@
 				<div class = "fblock">
 					<div class = 'fname'>Эл. почта</div>
 					<div class = 'fval'>
-						<input type = "text" name = "email">
+						<input type = "text" name = "email" >
 					</div>
 				</div>
 
 				<div class = "fblock">
 					<div class = 'fname'>Ваш вопрос</div>
 					<div class = 'fval'>
-						<textarea name = "question">
+						<textarea name = "question" required>
 						</textarea>
 					</div>
 				</div>
@@ -242,9 +242,24 @@
 
 	</section>	<br>	<br>	<br>
 
+<?
+	if(  (isset($_POST['phone']) AND $_POST['phone'] !=null) || (isset($_POSt['email']) AND $_POST['email'] !=null) ){	?>
 
-
-
+		<div style = "position: fixed; left: 0; right: 0; top: 0; bottom: 0; background-color: #000; opacity: 0.7">	</div>
+		
+		<div class = "popup" >
+			<h2>Письмо успешно отправ&shy;лено</h2>
+		</div>	
+		<meta http-equiv = "refresh" content = "3">
+<?	}
+	elseif(isset($_POST['name']) AND isset($_POST['question'])){	?>
+		<div style = "position: fixed; left: 0; right: 0; top: 0; bottom: 0; background-color: #000; opacity: 0.7">	</div>
+		<div class = "popup" >
+			<h2>Укажите номер телефона <br>или эл. почту</h2>
+		</div>	
+		<meta http-equiv = "refresh" content = "3">
+<?	}
+?>
 	<footer>
 		
 		<!-- Создание сайта: Кибермозг.рф -->
