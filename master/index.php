@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<title>Курсы по программированию</title>
+	<title>Компьютерный мастер</title>
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 	<link rel="stylesheet" type="text/css" href="css/style_1200.css">
 	<link rel="stylesheet" type="text/css" href="css/style_1000.css">
@@ -306,6 +306,8 @@ style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" tit
 	</footer> 
 
 </div>    <!-- cont -->
+
+<script src = "code.js"></script>
 
 </body>
 </html>
