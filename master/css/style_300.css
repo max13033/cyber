@@ -17,6 +17,10 @@
 /*    src: url(../fonts/ds_crystal.ttf);*/
     src: url(../fonts/digital.otf);
 }
+@font-face{
+    font-family: nevrouse;
+    src: url(../fonts/nevrouze.ttf);
+}
 html{
 	scroll-behavior: smooth;
 }
@@ -30,7 +34,7 @@ a{
 header{
 	width: 100%;
 	/*min-height: 100px;*/
-	font-family: digital;
+	font-family: nevrouse;
 	color: #011b80;
 	font-size: 32pt;
 /*	text-align: justify;*/
