@@ -30,7 +30,7 @@
 	</header>	 <br>
 
 	<section id = "s1">	
-		section
+		section  new
 		
 	</section>
 
