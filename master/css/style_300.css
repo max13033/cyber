@@ -13,14 +13,21 @@
     src: url(../fonts/Cocogoose-Classic-Light-trial.ttf);
 }
 @font-face{
-    font-family: digital;
+    font-family: footer;
 /*    src: url(../fonts/ds_crystal.ttf);*/
-    src: url(../fonts/digital.otf);
+    src: url(../fonts/gunplay-regular.ttf);
 }
 @font-face{
-    font-family: nevrouse;
-    src: url(../fonts/nevrouze.ttf);
+    font-family: cybermind;
+    src: url(../fonts/handelson.otf);
 }
+@font-face{
+    font-family: furore;
+    src: url(../fonts/Furore.otf);
+}
+
+
+
 html{
 	scroll-behavior: smooth;
 }
@@ -34,13 +41,12 @@ a{
 header{
 	width: 100%;
 	/*min-height: 100px;*/
-	font-family: nevrouse;
-	color: #011b80;
-	font-size: 32pt;
-/*	text-align: justify;*/
+	font-family: furore;
+	color: #011b80;   
+	text-shadow: 0px 0px 5px  #098;
+	font-size: 24pt;
 	border-radius: 0 0 10px 10px;
 	box-shadow: 0 0 10px 1px #ccf;
-/*	box-sizing: border-box;*/
 }
 header div{
 /*	height: 50px;*/
@@ -58,12 +64,13 @@ header div + div{
 footer{
 	width: 100%;
 	/*min-height: 100px;*/
-	font-family: digital;
+	font-family: furore;
+	text-shadow: 0px 0px 5px  #098;	
 	color: #011b80;
-	font-size: 32pt;
+	font-size: 24pt;
 	border-radius: 10px 10px 0 0;
 	box-shadow: 0 0 10px 1px #ccf;
-/*	box-sizing: border-box;*/
+
 }
 footer div{
 /*	height: 50px;*/
@@ -84,173 +91,32 @@ span.title{
 	font-weight: bolder;
 	font-family: course;
 }
-#s3{
-	text-align: left;
+.clear{
+	clear: both;
 }
-.popup{
-	position: fixed; 
-	top: 30%; 
-	left: 30%; 
-	right: 30%; 
-	background-image: linear-gradient(-20deg, #008 , #0075ff);
-	padding: 3%;
-	box-sizing: border-box;
-	border-radius: 20px;
-	color: #fff;
-	font-size: 16pt;
+
+#s1{
+	padding: 0 5%;
 }
+#s1 h1{
+	text-align: center;
+	font-size: 36pt;
+	color: #011b80;
+	font-weight: bold;
+	font-family: furore;
+	letter-spacing: 2pt;
+
+}
+#s1 img{
+	float: right;
+	max-width: 500px;
+}
+
+
+
+
 
 @media screen and (min-width: 200px) and (max-width: 999px) {
-
-
-	#cont{
-		background-color: #fff;
-		width: 100%;
-		text-align: center;
-		padding: 0 20px;
-		box-sizing: border-box;
-	}
-	#man{
-		width: 100%;
-		max-width: 400px;
-	}
-	#s2 .desc{
-		font-size: 18pt;
-		color: #00a;
-		font-weight: bold;
-/*		font-family: arial;*/
-		width: 80%;
-		margin: auto;
-	}
-	div.block{
-		width: 95%;
-		margin-bottom: 30px;
-		background-color: #fff;
-		border-radius: 10px;
-		text-align: left;
-		font-size: 12pt;
-		color: #00f;
-		margin: auto;
-		box-sizing: border-box;
-		box-shadow: 0 0 30px #99f;
-
-	}
-	#div_2{
-		font-size: 18pt;
-	/*	position: relative;*/
-		color: #00a;
-		font-weight: bold;
-/*		font-family: arial;*/
-		width: 80%;
-		margin: auto;
-	}
-	.button{
-		width: 200px;
-		height: 60px;
-/*		background-color: #0075ff;*/
-		background-image: linear-gradient(-20deg, #004599 , #0075ff);
-		margin: auto;
-		margin-top: 70px;
-		color: #fff;
-		padding-top: 15px;
-		font-size: 20pt;
-		cursor: pointer;
-		border-radius: 15px;
-		box-sizing: border-box;
-		box-shadow: 0 0 20px 3px #0075ff;
-	}	
-	.arrow{
-		display: none;
-	}
-	div.lang{
-		position: relative;
-		height: 40px;
-		background-color: #00cdff;
-		border-radius: 10px 10px 0 0;
-		padding: 8px 25px;
-		font-size: 24pt;
-		font-weight: bold;
-		color: #fff;
-		font-family: tahoma;
-	}
-	.lang_logo_mini{
-		position: absolute;
-		top: 12px;
-		right: 20px;
-	}
-	.lang_logo{
-		display: none;
-	}
-	.lang_desc{
-		padding: 3%;	
-		font-size: 16pt;
-		color: #29368a;
-		font-family: tahoma;
-
-	}
-	span.desc_header{
-		font-size: 18pt;
-		font-weight: bold;
-	}
-
-	.level{
-		min-height: 100px;
-		padding: 30px;
-		box-sizing: border-box;
-		border-radius: 5px;
-		box-shadow: 0 0 2px #99f;	
-		width: 100%;
-	}
-	.l1{
-		background-color: #dff;
-	}
-	.l2{
-		background-color: #ccf7ff;
-	}
-	#forma{
-		width: 100%;
-/*		background-color: #0075ff;*/
-		background-image: linear-gradient(-20deg, #008 , #0075ff);
-		padding: 3%;
-		box-sizing: border-box;
-		border-radius: 20px;
-		color: #fff;
-	}
-	.fblock{
-		width: 100%;
-/*		height: 50px;*/
-		font-size: 18pt;
-		font-weight: bold;
-	}
-	.fname{
-
-		padding-right: 20px;
-		box-sizing: border-box;
-	}
-	.fval{
-	
-	}
-	input, textarea{
-		width: 200px;
-		height: 20px;
-		background-color: #ccf7ff;
-		border: 0;
-		margin-bottom: 20px;
-	}
-	.send{
-		font-size: 16pt;
-		color: #fff;
-		font-family: course;
-		height: 30px;
-		background-color: #039;
-		border: 0;
-		border-radius: 7px;
-		padding-top: 5px;
-		box-shadow: 0 0 5px 3px #ccf7ff;
-		cursor: pointer;
-	}
-
-
 
 
 

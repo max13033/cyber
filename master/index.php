@@ -24,15 +24,20 @@
 
 	<header>
 		<div> Кибермозг</div> 
-		<div> <img style = "height: 30px; " src = "img/whatsapp_b.png">	 &nbsp;8 995 1 101 909 </div>  
+		<div> <img style = "height: 30px; " src = "img/whatsapp_b.png">	 8 995 1 101 909 </div>  
 		<div style = "clear: both; float: none; margin: 0;"></div>
 			
 	</header>	 <br>
 
 	<section id = "s1">	
-		
-		
+		<h1>Компьютерный мастер на дом</h1>
+
+		<img src = "img/note.png" alt = "notebook">
+		some text
+
 	</section>
+
+	<div class = "clear">		</div>
 
 	<section id = "s2">
 		
@@ -46,7 +51,7 @@
 		<div> Кибермозг</div> 
 
 		<div> 
-			<img style = "height: 30px; " src = "img/whatsapp_b.png">	 &nbsp;8 995 1 101 909 
+			<img style = "height: 30px; " src = "img/whatsapp_b.png">	 <span>  </span>8 995 1 101 909 
 		</div>  <!-- <br> -->
 
 
