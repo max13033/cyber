@@ -14,8 +14,8 @@
 }
 @font-face{
     font-family: digital;
-/*    src: url(../fonts/ds_crystal.ttf);*/
-    src: url(../fonts/digital.otf);
+	src: url(../fonts/gunplay-regular.ttf);
+    /*  src: url(../fonts/digital.otf);  */
 }
 html{
 	scroll-behavior: smooth;
@@ -32,7 +32,7 @@ header{
 	/*min-height: 100px;*/
 	font-family: digital;
 	color: #011b80;
-	font-size: 32pt;
+	font-size: 28pt;
 /*	text-align: justify;*/
 	border-radius: 0 0 10px 10px;
 	box-shadow: 0 0 10px 1px #ccf;
